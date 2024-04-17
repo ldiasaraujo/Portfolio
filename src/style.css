@@ -1,6 +1,21 @@
 /*comentários em css*/
+
+.cabecalho {
+    width: 90%;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #titulo{
     text-align: center;
+    font-family: "Roboto Mono", monospace;
+    font-size: 60px;
+    -webkit-text-fill-color: linear-gradient(
+    to bottom left,
+    rgba(236, 236, 236, 0.582),
+    rgba(53, 130, 194, 0.904)
+  );
 }
 body {
     background-color: #010124f6;
