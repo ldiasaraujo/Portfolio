@@ -1,5 +1,7 @@
 /*comentários em css*/
 
+
+
 .cabecalho {
     width: 90%;
     align-self: center;
@@ -10,16 +12,80 @@
 #titulo{
     text-align: center;
     font-family: "Roboto Mono", monospace;
-    font-size: 60px;
-    -webkit-text-fill-color: linear-gradient(
-    to bottom left,
-    rgba(236, 236, 236, 0.582),
-    rgba(53, 130, 194, 0.904)
+    font-size: 80px;
+    background: linear-gradient(to right, #4B39EF, #39D2C0);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
   );
 }
 body {
     background-color: #010124f6;
 }
-copyright {
+.copyright {
         text-align: center;
+        color: white;
     }
+
+.titulos {
+    text-align: center;
+    font-family: "Roboto Mono", monospace;
+    font-size: 30px;
+    background: linear-gradient(to right, #4B39EF, #39D2C0, white);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 20px;
+    line-break: auto;
+}
+
+.badges {
+    margin-left: 30%;
+    max-inline-size: 100px;
+    align-self: right;
+    margin-bottom: 80%;
+}
+.certs {
+    background-color: #1D1638;
+    align-self: right;
+    margin-left: none;
+    display: inline-block;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    border-radius: 5%;
+    min-height: 300px;
+    max-width: 340px;
+    min-width: 320px;
+    
+}
+
+.projetos {
+    background-color: #1D1638;
+    align-self: center;
+    display: inline-block;
+    margin-top: 15%;
+    margin-left: 2%;
+    border-radius: 5%;
+    min-height: 300px;
+    min-width: 100px;
+    margin-bottom: 15%;
+    max-width: 340px;
+    min-width: 320px;
+    
+}
+
+.livros {
+    background-color: #1D1638;
+    align-self: left;
+    display: inline-block;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    margin-left: 2%;
+    margin-right: 8%;
+    border-radius: 5%;
+    max-width: 340px;
+    min-width: 320px;
+}
+
+.menus {
+    align-items: center;
+}
